@@ -27,15 +27,15 @@ const Category = () => {
                     clickable: true,
                 }}
                 modules={[Pagination]}
-                className=" mb-2"
+              
             >
-                <SwiperSlide><img src={slide1} alt="" />
-                    <h4 className='text-xl uppercase text-center  pb-12 text-white bold'>Salad</h4>
+                <SwiperSlide><img src={slide4} alt="" />
+                    <h4 className='text-xl uppercase text-center pb-16 -mt-16 text-white bold'>Desert</h4>
                 </SwiperSlide>
-                <SwiperSlide><img src={slide1} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Pizza</h4></SwiperSlide>
-                <SwiperSlide><img src={slide2} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Soup</h4></SwiperSlide>
-                <SwiperSlide><img src={slide3} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Desert</h4></SwiperSlide>
-                <SwiperSlide><img src={slide4} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Salad</h4></SwiperSlide>
+                <SwiperSlide><img src={slide1} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Salad</h4></SwiperSlide>
+                <SwiperSlide><img src={slide2} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Pizza</h4></SwiperSlide>
+                <SwiperSlide><img src={slide3} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Soup</h4></SwiperSlide>
+                <SwiperSlide><img src={slide4} alt="" /><h4 className='text-xl uppercase text-center -mt-16 text-white bold'>Desert</h4></SwiperSlide>
 
             </Swiper>
         </section>
