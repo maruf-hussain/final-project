@@ -3,15 +3,16 @@ const Footer = () => {
     return (
         <div>
         <div>
-        <footer className="footer p-10 bg-neutral text-neutral-content ">
-          <div>
+        <footer className="footer p-10 bg-neutral text-neutral-content">
+      
+        <div>
             <aside>
               <h2 className="text-3xl font-extrabold font-serif text-yellow-300">Maruf's <span className="text-white">Food</span></h2>
               <p>Maruf's Food Rastaurant Managment.<br />Providing reliable since 2017</p>
             </aside>
           </div>
   
-          <div>
+          <div> 
             <nav>
               <h6 className="footer-title">Social</h6>
               <div className="grid grid-flow-col gap-4">
@@ -21,6 +22,7 @@ const Footer = () => {
               </div>
             </nav>
           </div>
+       
   
         </footer>
         </div>
