@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-    const navOptions = <>
+  const navOptions = <>
     <li><Link to='/'>HOME</Link></li>
     <li><Link to='dashboard'>DASHBOARD</Link></li>
     <li> <Link to="/menu">OUR MENU</Link></li>
     <li><Link>CONTACT US</Link></li>
-    </>
+  </>
 
-    return (
-        <>
-         <div className="navbar max-w-7xl  fixed z-10 bg-opacity-10 ">
+  return (
+    <>
+      <div className="navbar max-w-7xl  fixed z-10 bg-opacity-10 ">
         <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost text-white lg:hidden">
@@ -28,8 +28,8 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-        </>
-    );
+    </>
+  );
 };
 
 export default NavBar;
